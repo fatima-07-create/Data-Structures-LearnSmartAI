@@ -1,0 +1,511 @@
+question_id,topic_id,question,options,correct_answer,difficulty
+1,1,Where are the elements of an array stored in memory?,In random memory locations;In contiguous memory locations;In linked nodes;In separate files,B,Easy
+2,1,What is the index of the first element in a C++ array?,0;1;-1;It depends on the array size,A,Easy
+3,1,What is the time complexity of accessing an array element by its index?,O(n);O(log n);O(n^2);O(1),D,Easy
+4,1,How many elements can int a[5] hold?,4;6;5;Unlimited,C,Easy
+5,1,For an array of size n what is the last valid index?,n;n-1;n+1;0,B,Easy
+6,1,What is the worst-case time to insert an element at the beginning of an array with n elements?,O(n) because elements must shift;O(1);O(log n);O(n log n),A,Medium
+7,1,Binary search can only be used when the array is,Unique;Of even size;Made of integers only;Sorted,D,Medium
+8,1,What is the worst-case time complexity of linear search?,O(1);O(log n);O(n);O(n^2),C,Medium
+9,1,What happens in C++ if you access a[10] when the array has only 5 elements?,The array resizes itself;Undefined behavior;It always returns 0;A compile error is always shown,B,Medium
+10,1,Which array operation is the slowest?,Inserting in the middle;Reading by index;Reading the first element;Updating by index,A,Medium
+11,1,How does C++ store a 2D array in memory?,Column by column;Diagonal by diagonal;In random order;Row by row (row-major),D,Medium
+12,1,If a[0] is at address 1000 and an int takes 4 bytes then a[3] is at address,1003;1004;1012;1016,C,Hard
+13,1,What is the worst-case time complexity of binary search?,O(n);O(log n);O(1);O(n log n),B,Hard
+14,1,Deleting the last element of an array whose size is known takes,O(1);O(n);O(log n);O(n^2),A,Hard
+15,1,Which is an advantage of arrays over linked lists?,Cheaper insertion in the middle;No fixed size;No need for contiguous memory;Constant-time random access,D,Hard
+16,2,A node in a singly linked list contains data and,A pointer to the previous node;An array index;A pointer to the next node;A hash key,C,Easy
+17,2,What does the next pointer of the last node hold in a singly linked list?,The head;NULL;Itself;A random address,B,Easy
+18,2,What is the pointer to the first node of a list called?,Head;Tail;Root;Top,A,Easy
+19,2,What is the time to reach the k-th node of a linked list?,O(1);O(log n);O(n^2);O(k) which is O(n) in the worst case,D,Easy
+20,2,What is the time to insert a node at the head?,O(n);O(log n);O(1);O(n^2),C,Easy
+21,2,What is the time to insert at the tail when a tail pointer is kept?,O(n);O(1);O(log n);O(n^2),B,Medium
+22,2,What is the time to insert at the tail when only a head pointer is kept?,O(n);O(1);O(log n);O(n^2),A,Medium
+23,2,What is one advantage of a linked list over an array?,Faster random access;Less memory per element;Better cache locality;Insertion and deletion need no shifting,D,Medium
+24,2,To delete a middle node you need a pointer to,The tail;The last node;The node just before it;Nothing,C,Medium
+25,2,When does a memory leak happen with linked list nodes?,When a node is set to NULL;When a removed node is never freed;When a node holds the value 0;When the node is the head,B,Medium
+26,2,A doubly linked list node has,Next and previous pointers;Only a next pointer;Only data;An index,A,Medium
+27,2,What is the time to reverse a singly linked list?,O(1);O(log n);O(n^2);O(n),D,Hard
+28,2,In a circular linked list the last node points to,NULL;Only itself;The first node;The middle node,C,Hard
+29,2,Which technique finds the middle node in a single pass?,Binary search;Slow and fast pointers;Sorting the list;Hashing,B,Hard
+30,2,What extra memory does a linked list need compared with an array?,A pointer in every node;None;Double the data;A hash table,A,Hard
+31,3,Which order does a stack follow?,FIFO;Random;Sorted;LIFO,D,Easy
+32,3,What does push do?,Removes the top element;Reads the top element;Adds an element on top;Clears the stack,C,Easy
+33,3,What does pop do?,Adds an element;Removes the top element;Reads without removing;Sorts the stack,B,Easy
+34,3,What does peek or top do?,Shows the top element without removing it;Removes the top element;Adds an element;Counts the elements,A,Easy
+35,3,What is stack underflow?,Pushing onto a full stack;Peeking a full stack;Reading the middle;Popping from an empty stack,D,Easy
+36,3,What is stack overflow?,Popping from an empty stack;Checking if empty;Pushing onto a full stack;Peeking the top,C,Medium
+37,3,What is the time of push and pop in an array-based stack?,O(n);O(1);O(log n);O(n log n),B,Medium
+38,3,Which feature is usually built with a stack?,Undo;Print queue;Round robin scheduling;Breadth first search,A,Medium
+39,3,What manages function calls in a running program?,A queue;A hash table;A heap only;The call stack,D,Medium
+40,3,Which structure checks balanced parentheses?,Queue;Graph;Stack;Heap,C,Medium
+41,3,When a stack evaluates a postfix expression it holds,Only operators;Operands;Sorted numbers;Pointers only,B,Medium
+42,3,Pushing characters and popping them all gives the string,Reversed;Unchanged;Sorted;Without duplicates,A,Hard
+43,3,In infix to postfix conversion the stack holds,Only operands;Only brackets;Results;Operators,D,Hard
+44,3,What is the value of the postfix expression 2 3 + 4 * ?,14;24;20;9,C,Hard
+45,3,Push 1 then 2 then 3 and pop twice. What is on top?,2;1;3;The stack is empty,B,Hard
+46,4,Which order does a queue follow?,FIFO;LIFO;Random;Sorted,A,Easy
+47,4,Where does enqueue add an element?,At the front;In the middle;At a random place;At the rear,D,Easy
+48,4,Where does dequeue remove an element?,From the rear;From the middle;From the front;From a random place,C,Easy
+49,4,What does the front operation do?,Removes the first element;Reads the first element without removing it;Adds an element;Reads the last element,B,Easy
+50,4,Which real-life example is a queue?,People in a ticket line;A pile of plates;An undo button;A family tree,A,Easy
+51,4,Why do we use a circular queue?,To sort the items;To store more data than the array size;To make dequeue slower;To reuse the empty space at the front,D,Medium
+52,4,In a circular array of size N the next rear index is,rear + 1;rear - 1;(rear + 1) % N;N - rear,C,Medium
+53,4,When is a circular queue with a count variable full?,When front is 0;When count equals the capacity;When rear is 0;When count is 1,B,Medium
+54,4,What is queue underflow?,Dequeue from an empty queue;Enqueue into a full queue;Reading the front;Checking the size,A,Medium
+55,4,Which algorithm uses a queue?,Depth first search;Postfix evaluation;Undo;Breadth first search,D,Medium
+56,4,A priority queue differs because it removes,The newest item first;A random item;The highest priority item first;The largest index,C,Medium
+57,4,A deque allows,Only insertion at the rear;Insertion and deletion at both ends;Only deletion at the front;Sorted insertion,B,Hard
+58,4,What is the problem of a simple linear array queue?,Space at the front is wasted after dequeues;It cannot hold integers;Enqueue is O(n log n);It has no front,A,Hard
+59,4,A circular queue has size 5 and front is at index 3 with 3 items. Where is the rear?,Index 1;Index 2;Index 4;Index 0,D,Hard
+60,4,To build a queue from two stacks you must,Sort the items;Use recursion only;Move items from one stack to the other to reverse their order;Double every push,C,Hard
+61,5,What does a hash function return?,A pointer;A bucket index for a key;A sorted list;A tree,B,Easy
+62,5,What is the average time to search a hash table?,O(1);O(n);O(log n);O(n^2),A,Easy
+63,5,What is a collision?,A full table;A missing key;A deleted key;Two keys mapping to the same index,D,Easy
+64,5,How does chaining handle collisions?,It deletes the old key;It changes the hash function;It keeps a linked list in every bucket;It sorts all keys,C,Easy
+65,5,Which is a simple hash function for an integer key?,key * 0;key % table size;key + key;A random number each time,B,Easy
+66,5,What is the load factor?,Number of items divided by number of buckets;Number of buckets divided by items;Items multiplied by buckets;The size of the largest chain,A,Medium
+67,5,What is rehashing?,Deleting all items;Sorting the buckets;Changing the key type;Growing the table and placing every item again,D,Medium
+68,5,What is the worst-case search time with chaining when all keys collide?,O(1);O(log n);O(n);O(n^2),C,Medium
+69,5,What does open addressing do on a collision?,Builds a linked list;Probes for another free slot inside the table;Deletes the old item;Stops the program,B,Medium
+70,5,Linear probing checks,The next slots one after another;Random slots;A tree;Only the previous slot,A,Medium
+71,5,What makes a hash function good?,It always returns 0;It depends on the time;It returns numbers bigger than the table;It spreads keys evenly,D,Medium
+72,5,Why is the table size often chosen as a prime number?,It makes the table smaller;It avoids all collisions;It spreads keys more evenly;It sorts the keys,C,Hard
+73,5,Deleting from an open addressing table needs,Nothing special;A special deleted marker;Rebuilding every time;Swapping with the last slot,B,Hard
+74,5,With 11 buckets which two keys collide using key % 11?,1001 and 1012;1002 and 1003;15 and 27;10 and 12,A,Hard
+75,5,For which task is a hash table a poor choice?,Finding a value by key;Inserting a key;Deleting a key;Listing keys in sorted order,D,Hard
+76,6,What is the BST property?,Left is larger than right;All values are equal;Left subtree values are smaller and right subtree values are larger;Every node has two children,C,Easy
+77,6,Which traversal of a BST prints the values in ascending order?,Preorder;Inorder;Postorder;Level order,B,Easy
+78,6,What is the average time to search a BST?,O(log n);O(1);O(n);O(n^2),A,Easy
+79,6,What makes a BST degrade to O(n)?,Inserting random data;Having many leaves;Having duplicate keys;Inserting sorted data,D,Easy
+80,6,Where is the minimum value of a BST?,The rightmost node;The root;The leftmost node;The last inserted node,C,Easy
+81,6,Where is the maximum value of a BST?,The leftmost node;The rightmost node;The root;The first inserted node,B,Medium
+82,6,What is the order of preorder traversal?,Root then left then right;Left then root then right;Left then right then root;Right then root then left,A,Medium
+83,6,What is the order of postorder traversal?,Root then left then right;Left then root then right;Right then left then root;Left then right then root,D,Medium
+84,6,How do you delete a leaf node?,Replace it with the root;Rotate the tree;Simply remove it;Rebuild the tree,C,Medium
+85,6,How do you delete a node with one child?,Delete the whole subtree;Replace the node with its child;Replace it with the root;Swap it with a leaf,B,Medium
+86,6,How do you delete a node with two children?,Replace it with its inorder successor or predecessor;Delete both children;Replace it with the root;Rotate it,A,Medium
+87,6,Insert 50 then 30 then 70 then 20 then 40 into a BST. What is the inorder output?,50 30 20 40 70;20 40 30 70 50;70 50 40 30 20;20 30 40 50 70,D,Hard
+88,6,What is the height of a BST with one node when height counts edges?,1;2;0;-1,C,Hard
+89,6,A range query asks for scores 40 to 60 and you are at node 30. Where do you go?,Left only;Right only;Both sides;Stop,B,Hard
+90,6,What is the inorder successor of a node that has a right child?,The smallest node in its right subtree;The largest node in its left subtree;Its parent;Its right child always,A,Hard
+91,7,What is an AVL tree?,A tree with only two levels;A tree stored in an array;A graph without cycles;A self-balancing binary search tree,D,Easy
+92,7,How is the balance factor of a node calculated?,Height of right plus left;Number of leaves;Height of left subtree minus height of right subtree;Number of children,C,Easy
+93,7,Which balance factors are allowed in an AVL tree?,0 only;-1 and 0 and 1;Any value;2 and -2,B,Easy
+94,7,A balance factor of +2 means the node is,Left heavy;Right heavy;Balanced;A leaf,A,Easy
+95,7,What is the worst-case time of search insert and delete in an AVL tree?,O(1);O(n);O(n^2);O(log n),D,Easy
+96,7,What does a rotation do?,Deletes a node;Sorts the array;Restores the balance of the tree;Doubles the height,C,Medium
+97,7,Which rotation fixes the LL case?,A single left rotation;A single right rotation;Left then right;Right then left,B,Medium
+98,7,Which rotation fixes the RR case?,A single left rotation;A single right rotation;Left then right;Right then left,A,Medium
+99,7,How is the LR case fixed?,Right rotation only;Left rotation only;Right rotation on the child then left rotation on the node;Left rotation on the child then right rotation on the node,D,Medium
+100,7,How is the RL case fixed?,Left rotation only;Right rotation only;Right rotation on the child then left rotation on the node;Left rotation on the child then right rotation on the node,C,Medium
+101,7,Insert 10 then 20 then 30 in an AVL tree. Which node becomes the root?,10;20;30;The root stays empty,B,Medium
+102,7,Why is an AVL tree better than a plain BST for sorted input?,It stays balanced so operations stay O(log n);It uses less memory;It needs no pointers;It allows duplicates,A,Hard
+103,7,Insert 30 then 20 then 10. Which imbalance case occurs?,RR;LR;RL;LL,D,Hard
+104,7,Insert 30 then 10 then 20. Which imbalance case occurs?,LL;RR;LR;RL,C,Hard
+105,7,After a deletion in an AVL tree,No rebalancing is ever needed;Rebalancing may be needed on the path up to the root;The tree must be rebuilt;Only the root is checked,B,Hard
+106,8,What is true for every parent in a max heap?,It is greater than or equal to its children;It is smaller than its children;It equals its children;It has two children,A,Easy
+107,8,What shape does a heap have?,A full graph;A linked list;A skewed tree;A complete binary tree,D,Easy
+108,8,Which element sits at the root of a max heap?,The smallest;The median;The largest;The last inserted,C,Easy
+109,8,In a 0-based array heap the left child of index i is at,2i;2i + 1;i + 1;i / 2,B,Easy
+110,8,In a 0-based array heap the right child of index i is at,2i + 2;2i + 1;i + 2;i * 3,A,Easy
+111,8,In a 0-based array heap the parent of index i is at,i / 2 + 1;2i;i - 2;(i - 1) / 2,D,Medium
+112,8,What is the time of peekMax?,O(log n);O(n);O(1);O(n log n),C,Medium
+113,8,What is the time of heap insert?,O(1);O(log n);O(n);O(n^2),B,Medium
+114,8,What is the time of extractMax?,O(log n);O(1);O(n);O(n^2),A,Medium
+115,8,How does insert work in a max heap?,Add at the root then heapify down;Add and sort the array;Add at a random index;Add at the end then heapify up,D,Medium
+116,8,How does extractMax work?,Remove the last element only;Sort the array first;Replace the root with the last element then heapify down;Swap the root with a random node,C,Medium
+117,8,What is the time to build a heap from an array of n items using heapify?,O(log n);O(n);O(n^2);O(1),B,Hard
+118,8,For the max heap array 50 30 40 10 20 what is the new root after extractMax?,40;30;20;10,A,Hard
+119,8,Which structure is a heap commonly used to build?,A stack;A hash table;A linked list;A priority queue,D,Hard
+120,8,How does a min heap differ from a max heap?,It has more nodes;It is not a tree;Its root is the smallest value;It cannot be stored in an array,C,Hard
+121,9,What does a graph consist of?,Only arrays;Vertices and edges;Only a root and leaves;Rows and columns,B,Easy
+122,9,What does a directed edge A to B mean?,The connection goes from A to B only;A and B are the same;B points to A only;The edge has no direction,A,Easy
+123,9,What does an adjacency list store?,A matrix of zeros and ones;Only the edge weights;Only the vertices;For each vertex the list of its neighbours,D,Easy
+124,9,Which structure does BFS use?,A stack;A heap;A queue;A hash table,C,Easy
+125,9,Which structure does DFS use?,A queue;A stack or recursion;A heap;A hash table,B,Easy
+126,9,How does BFS visit vertices?,Level by level;As deep as possible first;In random order;In sorted order,A,Medium
+127,9,What is the space used by an adjacency list?,O(V^2);O(E^2);O(1);O(V + E),D,Medium
+128,9,What is the space used by an adjacency matrix?,O(V + E);O(E);O(V^2);O(1),C,Medium
+129,9,What is the degree of a vertex in an undirected graph?,The number of vertices;The number of edges attached to it;Its weight;Its depth,B,Medium
+130,9,What is a cycle?,A path that starts and ends at the same vertex;A path with no edges;A vertex with no edges;A weighted edge,A,Medium
+131,9,A topic prerequisite graph is best modelled as a,Undirected graph;Complete graph;Tree with one child;Directed graph,D,Medium
+132,9,What is a weighted graph?,A graph with many vertices;A graph with no edges;A graph whose edges carry values;A graph stored in an array,C,Hard
+133,9,BFS finds the shortest path in,Any weighted graph;An unweighted graph;Only trees with cycles;Only a complete graph,B,Hard
+134,9,What is the time complexity of BFS with an adjacency list?,O(V + E);O(V^2);O(log V);O(1),A,Hard
+135,9,Why does graph traversal keep a visited array?,To sort the vertices;To store edge weights;To count the edges;To avoid visiting a vertex twice and looping forever,D,Hard
+136,10,What is a class?,A running object;A type of loop;A blueprint for creating objects;A file on disk,C,Easy
+137,10,What is an object?,A blueprint;An instance of a class;A function;A header file,B,Easy
+138,10,Which keyword defines a class in C++?,class;object;define;struct only,A,Easy
+139,10,Which operator accesses a member of an object?,The scope operator;The arrow only;The ampersand;The dot operator,D,Easy
+140,10,Which operator accesses a member through a pointer to an object?,The dot operator;The star only;The arrow operator ->;The colon,C,Easy
+141,10,What is the default access level of members in a C++ class?,public;private;protected;global,B,Medium
+142,10,What is a constructor?,A special function that runs automatically when an object is created;A function that deletes objects;A loop;A global variable,A,Medium
+143,10,What is the name of a constructor?,constructor;init;main;The same as the class name,D,Medium
+144,10,What is the return type of a constructor?,void;int;It has no return type;The class pointer,C,Medium
+145,10,How does a destructor name begin?,With an underscore;With a tilde ~;With the word delete;With a star,B,Medium
+146,10,When is a destructor called?,When the object is destroyed;When the object is created;When the program starts;Never automatically,A,Medium
+147,10,What does a copy constructor do?,Deletes an object;Compares two objects;Renames an object;Creates a new object as a copy of an existing one,D,Hard
+148,10,What does the this pointer hold?,The address of the class;The address of main;The address of the current object;A null value,C,Hard
+149,10,What is a static data member?,A copy for every object;One copy shared by all objects of the class;A constant local variable;A member that cannot be read,B,Hard
+150,10,What is constructor overloading?,Having several constructors with different parameters;Calling a constructor twice;A constructor with a return value;A constructor inside main,A,Hard
+151,11,What is encapsulation?,Creating many objects;Repeating code;Converting types;Bundling data and functions together and controlling access to the data,D,Easy
+152,11,Who can access private members?,Everyone;Only derived classes;Only members of the same class and friends;Only main,C,Easy
+153,11,What is the purpose of a getter?,To delete a member;To read a private member safely;To create an object;To change the class name,B,Easy
+154,11,What is the purpose of a setter?,To change a private member in a controlled way;To print the object;To copy the object;To destroy the object,A,Easy
+155,11,What is the main benefit of data hiding?,It makes code run faster;It uses less memory;It removes the need for classes;It protects data from invalid changes,D,Easy
+156,11,Who can access public members?,Only the class;Only friends;Any code that can see the object;Nobody,C,Medium
+157,11,Who can access protected members?,Everyone;The class and its derived classes;Only main;Only friends of main,B,Medium
+158,11,What can a friend function do?,Access private members of the class;Create the class;Delete the class;Inherit the class,A,Medium
+159,11,Why make data members private?,To make them global;To save memory;To allow any code to edit them;To control exactly how the data can change,D,Medium
+160,11,A setter for age should reject a negative value. This is an example of,Inheritance;Overloading;Validation inside a setter;Recursion,C,Medium
+161,11,What is the default access level of members in a C++ struct?,private;public;protected;none,B,Medium
+162,11,What does a const member function promise?,It will not change the object;It will return a constant;It runs only once;It cannot be called,A,Hard
+163,11,Which statement about encapsulation and abstraction is correct?,They mean exactly the same;Abstraction hides data only;Encapsulation is a loop;Encapsulation hides data and abstraction hides complexity,D,Hard
+164,11,What happens if main reads a private member directly?,It prints zero;It works normally;A compile error;The program restarts,C,Hard
+165,11,Which design is a good example of encapsulation?,Public data and no methods;Private data with public methods;Only global variables;A class with no members,B,Hard
+166,12,What is abstraction?,Showing only essential features and hiding the details;Copying a class;Making all data public;Deleting unused code,A,Easy
+167,12,Which example shows abstraction?,Writing the same code twice;Sorting an array;Declaring a variable;Driving a car without knowing how the engine works,D,Easy
+168,12,What makes a class abstract in C++?,It has a constructor;It has private data;It has at least one pure virtual function;It has a static member,C,Easy
+169,12,What is the syntax of a pure virtual function?,void show() = virtual;virtual void show() = 0;abstract void show();virtual void show() { },B,Easy
+170,12,Can you create an object of an abstract class?,No;Yes always;Only with new;Only in main,A,Easy
+171,12,How do we make an interface in C++?,A class with only private data;A struct with no functions;A global function;A class with only pure virtual functions,D,Medium
+172,12,What must a derived class do with a pure virtual function?,Ignore it;Delete it;Override it or stay abstract itself;Make it private,C,Medium
+173,12,Can an abstract class also have normal member functions?,No;Yes;Only static ones;Only constructors,B,Medium
+174,12,Which tool of the language supports abstraction?,Classes with public interfaces;Global variables;The goto statement;Macros only,A,Medium
+175,12,Can a pointer of an abstract class type point to a derived object?,No;Only if const;Only in main;Yes,D,Medium
+176,12,Why is abstraction useful?,It makes every variable public;It removes the need for testing;The implementation can change without affecting the users;It speeds up the compiler,C,Medium
+177,12,Which practice shows abstraction in C++ projects?,Putting all code in main;Headers declare the interface and source files hide the implementation;Using only global data;Avoiding functions,B,Hard
+178,12,Why should an abstract base class have a virtual destructor?,So derived objects are destroyed correctly through a base pointer;To make it concrete;To avoid constructors;To allow private data,A,Hard
+179,12,What does an ATM user see in a good abstraction?,The internal bank database code;The network packets;The source code;Simple options like withdraw and balance,D,Hard
+180,12,What does an abstract class mainly provide?,Faster loops;Automatic sorting;A common interface for its derived classes;Memory cleanup,C,Hard
+181,13,What is inheritance?,Copying a file;A class acquiring members of another class;Creating an object;Deleting a class,B,Easy
+182,13,What is the parent class called?,Base class;Derived class;Friend class;Static class,A,Easy
+183,13,Which line makes Dog inherit publicly from Animal?,class Dog public Animal;class Animal : public Dog;Dog inherits Animal;class Dog : public Animal,D,Easy
+184,13,Which is a valid type of inheritance?,Circular;Random;Multilevel;Recursive,C,Easy
+185,13,What is multilevel inheritance?,One class with two parents;A chain such as A to B to C;Many children of one parent;A class inheriting itself,B,Easy
+186,13,What is multiple inheritance?,A class derived from two or more base classes;A chain of three classes;One parent with many children;A class with two objects,A,Medium
+187,13,Can a derived class access private members of its base?,Yes;Only for constants;Only in main;No,D,Medium
+188,13,Can a derived class access protected members of its base?,No;Only through friends;Yes;Never,C,Medium
+189,13,In which order are constructors called?,Derived first then base;Base first then derived;Random order;Only the derived one,B,Medium
+190,13,In which order are destructors called?,Derived first then base;Base first then derived;Random order;Only the base one,A,Medium
+191,13,What is the diamond problem?,A loop that never ends;A memory leak;A syntax error in main;Ambiguity when a class inherits the same base through two paths,D,Medium
+192,13,Which relationship does public inheritance model?,Has-a;Uses-a;Is-a;Owns-a,C,Hard
+193,13,How is the diamond problem solved?,With friend functions;With virtual inheritance;With static members;With macros,B,Hard
+194,13,What is function overriding?,A derived class redefines a base function with the same signature;Two functions with different parameters;Calling a function twice;Making a function static,A,Hard
+195,13,Which of these is not inherited by a derived class?,Public data members;Public member functions;Protected data members;Constructors,D,Hard
+196,14,What does polymorphism mean?,Many classes;Many files;Many forms;Many loops,C,Easy
+197,14,Which is compile-time polymorphism?,Virtual functions;Function overloading;Inheritance;Destructors,B,Easy
+198,14,Which is runtime polymorphism?,Virtual function overriding;Function overloading;Operator overloading;Templates only,A,Easy
+199,14,What is function overloading?,Same name and same parameters;Functions in different files;A function that calls itself;Same function name with different parameters,D,Easy
+200,14,In runtime polymorphism a derived class redefines which kind of base class function?,A static function;A constructor;A virtual function;A friend function,C,Easy
+201,14,Which keyword enables runtime binding?,static;virtual;const;friend,B,Medium
+202,14,A base pointer points to a derived object and calls a virtual function. Which version runs?,The derived version;The base version;Neither;Both,A,Medium
+203,14,Without virtual what runs when a base pointer calls a function on a derived object?,The derived version;Both;Neither;The base version,D,Medium
+204,14,What does operator overloading allow?,Creating new operators;Removing operators;Using operators such as + with objects;Using operators on keywords,C,Medium
+205,14,Can two overloads differ only by return type?,Yes;No;Only for int;Only for void,B,Medium
+206,14,What do virtual functions use internally?,A vtable;A hash table;A stack only;A queue,A,Medium
+207,14,What does the override keyword do?,Creates a new base function;Makes a function static;Hides the function;Asks the compiler to check that a base function is really overridden,D,Hard
+208,14,What is early binding?,The call is resolved at runtime;The call is never resolved;The function call is resolved at compile time;The call is resolved by the user,C,Hard
+209,14,What is late binding?,The call is resolved at compile time;The function call is resolved at runtime;The call is resolved in the linker only;The call is removed,B,Hard
+210,14,Which operator cannot be overloaded in C++?,The scope resolution operator ::;The plus operator;The equality operator;The subscript operator,A,Hard
+211,15,What is a table called in the relational model?,A tuple;An attribute;A domain;A relation,D,Easy
+212,15,What is a row called?,An attribute;A relation;A tuple;A key,C,Easy
+213,15,What is a column called?,A tuple;An attribute;A relation;A schema,B,Easy
+214,15,What does a primary key do?,Uniquely identifies each row;Sorts the table;Links two databases;Deletes duplicates automatically,A,Easy
+215,15,Can a primary key contain NULL?,Yes;Only for text;Only for numbers;No,D,Easy
+216,15,What is a foreign key?,A second primary key;An encrypted column;An attribute that refers to the primary key of another table;A column with duplicates only,C,Medium
+217,15,What is a candidate key?,Any column;A minimal set of attributes that can uniquely identify a row;A column with NULL;A duplicate key,B,Medium
+218,15,What is a super key?,Any set of attributes that uniquely identifies a row;A key with only one column;A foreign key;A key with NULL,A,Medium
+219,15,What is a composite key?,A key that is encrypted;A key that is NULL;A key in another database;A key made of more than one attribute,D,Medium
+220,15,What is the degree of a relation?,The number of tuples;The number of keys;The number of attributes;The number of tables,C,Medium
+221,15,What is the cardinality of a relation?,The number of attributes;The number of tuples;The number of keys;The number of schemas,B,Medium
+222,15,What does referential integrity require?,A foreign key value must exist in the referenced table or be NULL;Every column must be unique;Every table must have 10 rows;Primary keys must be text,A,Hard
+223,15,How many primary keys can a table have?,Two;As many as columns;None;One,D,Hard
+224,15,What is an alternate key?,A foreign key;A duplicate column;A candidate key that was not chosen as the primary key;A deleted key,C,Hard
+225,15,What is a domain?,A database server;The set of allowed values for an attribute;A table name;A row count,B,Hard
+226,16,What is an entity?,A real-world object that can be distinguished from others;A SQL command;A column type;A server,A,Easy
+227,16,What is an attribute in an ER diagram?,A table;A database;A query;A property that describes an entity,D,Easy
+228,16,What is a relationship?,A column;A key;An association between entities;A row,C,Easy
+229,16,Which shape shows an entity in an ER diagram?,Oval;Rectangle;Diamond;Circle with a line,B,Easy
+230,16,Which shape shows an attribute?,Oval;Rectangle;Diamond;Triangle,A,Easy
+231,16,Which shape shows a relationship?,Rectangle;Oval;Hexagon;Diamond,D,Medium
+232,16,Which is an example of a one-to-many relationship?,One person has one passport;Students and courses with no limits;One department has many employees;One city has one capital,C,Medium
+233,16,How is a many-to-many relationship converted into tables?,By deleting one entity;With a separate junction table;By merging both tables;By removing the keys,B,Medium
+234,16,What is a weak entity?,An entity with no primary key of its own that depends on an owner entity;An entity with no attributes;An entity with many keys;An entity without relationships,A,Medium
+235,16,What is a derived attribute?,An attribute with many values;An attribute that is a key;An attribute that is NULL;An attribute calculated from others such as age from birth date,D,Medium
+236,16,What is a multivalued attribute?,An attribute with one value;A key attribute;An attribute that can hold several values such as phone numbers;A calculated attribute,C,Medium
+237,16,How is a weak entity drawn?,As a single oval;As a double rectangle;As a diamond;As a dotted line,B,Hard
+238,16,What does cardinality describe?,How many instances of one entity relate to another;The size of a table;The speed of a query;The type of a column,A,Hard
+239,16,What is a composite attribute?,A key attribute;An attribute with NULL;An attribute with many rows;An attribute that can be split into parts such as first and last name,D,Hard
+240,16,What does generalization mean in ER modeling?,Deleting entities;Making attributes private;Combining similar entities into a higher-level entity;Joining two databases,C,Hard
+241,17,Which command retrieves data?,INSERT;SELECT;UPDATE;CREATE,B,Easy
+242,17,Which command adds a new row?,INSERT INTO;SELECT;DROP;ALTER,A,Easy
+243,17,Which command changes existing rows?,SELECT;INSERT;DROP;UPDATE,D,Easy
+244,17,Which command removes rows?,DROP COLUMN;SELECT;DELETE;MERGE,C,Easy
+245,17,Which command creates a table?,MAKE TABLE;CREATE TABLE;NEW TABLE;INSERT TABLE,B,Easy
+246,17,What does WHERE do?,Filters rows by a condition;Sorts rows;Groups rows;Creates a table,A,Medium
+247,17,What does ORDER BY do?,Filters rows;Joins tables;Deletes rows;Sorts the result,D,Medium
+248,17,What does DROP TABLE do?,Removes only the rows;Renames the table;Removes the table and its structure;Copies the table,C,Medium
+249,17,Which group does CREATE ALTER and DROP belong to?,DML;DDL;DCL;TCL,B,Medium
+250,17,What does COUNT(*) return?,The number of rows;The sum of values;The largest value;The column names,A,Medium
+251,17,What does DISTINCT do?,Sorts the result;Counts the rows;Deletes duplicates from the table;Removes duplicate values from the result,D,Medium
+252,17,Which keyword does pattern matching?,MATCH;FIND;LIKE;SIMILAR,C,Hard
+253,17,What does GROUP BY do?,Sorts rows;Groups rows so aggregate functions work per group;Deletes groups;Joins tables,B,Hard
+254,17,What does HAVING filter?,Groups after aggregation;Single rows before grouping;Table names;Column types,A,Hard
+255,17,How does TRUNCATE differ from DELETE?,TRUNCATE removes the table;TRUNCATE needs WHERE;They are identical;TRUNCATE removes all rows quickly and has no WHERE,D,Hard
+256,18,What does a JOIN do?,Deletes rows;Sorts rows;Combines rows from two tables using a related column;Creates a table,C,Easy
+257,18,What does INNER JOIN return?,All rows from both tables;Only rows that match in both tables;All rows from the left table only;No rows,B,Easy
+258,18,What does LEFT JOIN return?,All rows from the left table plus matches from the right;Only matching rows;All rows from the right table;Only unmatched rows,A,Easy
+259,18,What does RIGHT JOIN return?,Only matching rows;All rows from the left table;Only unmatched rows;All rows from the right table plus matches from the left,D,Easy
+260,18,What does FULL OUTER JOIN return?,Only matching rows;Only left rows;All rows from both tables;Only right rows,C,Easy
+261,18,What does CROSS JOIN produce?,Only matching rows;Every combination of rows;Only the first row;Only the last row,B,Medium
+262,18,How many rows does a CROSS JOIN of 3 rows and 4 rows give?,12;7;3;4,A,Medium
+263,18,Which clause gives the join condition?,WHERE only;GROUP;HAVING;ON,D,Medium
+264,18,What is a self join?,A join with no table;A join of three tables;A table joined with itself;A join using NULL,C,Medium
+265,18,What is a subquery?,A query with no table;A query inside another query;A deleted query;A query that joins databases,B,Medium
+266,18,What happens if you join two tables with no condition?,You get the Cartesian product;You get no rows;You get an error always;You get one row,A,Medium
+267,18,Which are aggregate functions?,SELECT and WHERE;JOIN and ON;CREATE and DROP;SUM and AVG and MIN and MAX and COUNT,D,Hard
+268,18,In a LEFT JOIN what do unmatched right columns show?,Zero;Empty string always;NULL;The left value,C,Hard
+269,18,What does the IN operator check?,If a value is NULL;If a value is in a list or subquery result;If a table exists;If two tables are equal,B,Hard
+270,18,What does UNION do?,Combines the results of two selects and removes duplicates;Joins tables by key;Deletes duplicate tables;Sorts the table,A,Hard
+271,19,What is the main goal of normalization?,To make tables bigger;To remove all keys;To speed up the network;To reduce redundancy and anomalies,D,Easy
+272,19,What does 1NF require?,No partial dependency;No transitive dependency;Atomic values and no repeating groups;Only one table,C,Easy
+273,19,What does 2NF require?,1NF only;1NF and no partial dependency;3NF and BCNF;No primary key,B,Easy
+274,19,What does 3NF require?,2NF and no transitive dependency;1NF only;No foreign keys;No NULL values,A,Easy
+275,19,Which form is stricter than 3NF?,1NF;2NF;0NF;BCNF,D,Easy
+276,19,Which are the three anomalies?,Select and join and sort;Read and write and copy;Insert and update and delete;Create and drop and alter,C,Medium
+277,19,What does the functional dependency X to Y mean?,Y determines X;X determines Y;X equals Y;X and Y are tables,B,Medium
+278,19,What is a partial dependency?,A non-key attribute depends on part of a composite key;A key depends on a non-key;Two keys are equal;A column has NULL,A,Medium
+279,19,What is a transitive dependency?,A key depends on itself;A column depends on a table name;Two tables depend on each other;A non-key attribute depends on another non-key attribute,D,Medium
+280,19,A cell holds two phone numbers. Which form is violated?,2NF;3NF;1NF;BCNF,C,Medium
+281,19,What is denormalization?,Removing all tables;Adding redundancy on purpose to speed up reads;Deleting keys;Encrypting data,B,Medium
+282,19,What is an update anomaly?,Changing repeated data in some rows but not all leaves inconsistency;A missing table;A slow query;A deleted key,A,Hard
+283,19,When does 2NF matter?,When there is only one column;When there is no key;When the table is empty;When the primary key is composite,D,Hard
+284,19,What must a good decomposition be?,Random;Larger;Lossless;Without keys,C,Hard
+285,19,What does normalization usually do to a big table?,Merges it with another database;Splits it into smaller related tables;Deletes half of it;Sorts it,B,Hard
+286,20,What is a transaction?,A logical unit of work made of one or more operations;A table;A single column;A backup file,A,Easy
+287,20,What does Atomicity mean?,Data is encrypted;Data is sorted;Tables are joined;All operations happen or none do,D,Easy
+288,20,What does Consistency mean?,Data never changes;All users see the same screen;A transaction moves the database from one valid state to another;Tables are copied,C,Easy
+289,20,What does Isolation mean?,Each table is separate;Concurrent transactions do not interfere with each other;Users are blocked forever;Data is deleted,B,Easy
+290,20,What does Durability mean?,Committed changes survive a crash;Data is deleted after use;Data is hidden;Queries run faster,A,Easy
+291,20,What does COMMIT do?,Undoes the changes;Deletes the table;Starts a new database;Saves the transaction changes permanently,D,Medium
+292,20,What does ROLLBACK do?,Saves the changes;Creates a table;Undoes the changes of the transaction;Locks the database,C,Medium
+293,20,What does a SAVEPOINT allow?,Deleting a table;Rolling back part of a transaction;Copying a database;Joining two tables,B,Medium
+294,20,Which property does a bank transfer need so money is not lost halfway?,Atomicity;Durability only;Normalization;Indexing,A,Medium
+295,20,What is a deadlock in a database?,A table with no rows;A lost password;A full disk;Two transactions waiting for each other forever,D,Medium
+296,20,What is a dirty read?,Reading a deleted table;Reading a NULL;Reading data that another transaction has not committed;Reading an index,C,Medium
+297,20,What does a lock do?,Sorts the data;Prevents conflicting access to data;Copies the data;Deletes the data,B,Hard
+298,20,Which isolation level is the strictest?,Serializable;Read uncommitted;Read committed;Repeatable,A,Hard
+299,20,What helps a database recover after a crash?,A bigger screen;More tables;A faster mouse;A write-ahead log,D,Hard
+300,20,A crash loses data that was already committed. Which property failed?,Atomicity;Isolation;Durability;Consistency,C,Hard
+301,21,What is a process?,A file on disk;A program in execution;A type of memory;A compiler,B,Easy
+302,21,What does the Process Control Block store?,Information about a process such as state and registers;Only the program code;The hard disk layout;The keyboard input,A,Easy
+303,21,Which is a process state?,Compiled;Linked;Saved;Ready,D,Easy
+304,21,What is a thread?,A copy of the operating system;A type of file;A lightweight unit of execution inside a process;A hardware device,C,Easy
+305,21,What do threads of the same process share?,Their stacks;Code and data and open files;Their registers;Their program counters,B,Easy
+306,21,What does each thread have of its own?,Its own stack and registers;Its own code section;Its own heap;Its own open files,A,Medium
+307,21,What is a context switch?,Closing a window;Compiling code;Copying a file;Saving the state of one process and loading another,D,Medium
+308,21,Which Unix call creates a child process?,create();spawn_thread();fork();clone_file(),C,Medium
+309,21,What does a process in the Ready state wait for?,Input from the disk;The CPU;A child to finish;A signal from the user,B,Medium
+310,21,When does a Running process move to Waiting?,When it requests an I/O operation;When it finishes;When it is created;When the CPU is free,A,Medium
+311,21,What is a zombie process?,A process that never starts;A process using all memory;A process stuck in a loop;A finished process whose parent has not read its exit status,D,Medium
+312,21,Which is a method of inter-process communication?,Compilation;Paging;Pipes;Formatting,C,Hard
+313,21,What is one benefit of multithreading?,Less need for a CPU;Better responsiveness and resource sharing;No need for memory;Faster disks,B,Hard
+314,21,Which is cheaper to create?,A thread;A process;They cost the same;A virtual machine,A,Hard
+315,21,Which resource is NOT shared between threads of a process?,The heap;The code;Global data;The stack,D,Hard
+316,22,What does the CPU scheduler do?,Allocates disk space;Compiles programs;Chooses which ready process gets the CPU;Controls the keyboard,C,Easy
+317,22,What does FCFS stand for?,First Core First Sent;First Come First Served;Fast CPU First Served;Final Call For Service,B,Easy
+318,22,What is the convoy effect?,Short processes wait behind a long process;Processes run in parallel;A process gets two CPUs;A deadlock between processes,A,Easy
+319,22,What does SJF choose?,The oldest process;The largest process;A random process;The process with the shortest burst time,D,Easy
+320,22,Which algorithm gives the minimum average waiting time?,Round Robin;FCFS;Shortest Job First;Priority,C,Easy
+321,22,What does Round Robin use?,A priority number;A time quantum;A burst prediction;A random seed,B,Medium
+322,22,What does preemptive scheduling mean?,The OS can take the CPU away from a running process;A process can never be stopped;Processes run only once;The CPU never idles,A,Medium
+323,22,What is waiting time?,Time spent running;Time to start the computer;Time spent on I/O only;Time a process spends in the ready queue,D,Medium
+324,22,How is turnaround time calculated?,Burst time minus arrival time;Arrival time plus burst;Completion time minus arrival time;Completion time plus waiting,C,Medium
+325,22,What is starvation?,A process uses too much memory;A process waits forever because others keep getting the CPU;A process finishes early;A process is deleted,B,Medium
+326,22,What is aging?,Raising the priority of processes that wait a long time;Deleting old processes;Slowing the CPU;Sorting by name,A,Medium
+327,22,Round Robin with a very large time quantum behaves like,SJF;Priority scheduling;Random scheduling;FCFS,D,Hard
+328,22,What is throughput?,Time to start a process;Size of memory;Number of processes completed per unit time;Speed of the disk,C,Hard
+329,22,P1 has burst 4 and P2 has burst 3 and both arrive at 0 under FCFS with P1 first. What is the waiting time of P2?,0;4;3;7,B,Hard
+330,22,What is the main problem of priority scheduling?,Starvation of low priority processes;It needs no CPU;It cannot run processes;It uses a time quantum,A,Hard
+331,23,What is a race condition?,Two processes finish together;A fast CPU;A full memory;The result depends on the timing of processes,D,Easy
+332,23,What is a critical section?,The first line of a program;A kernel panic;Code that accesses a shared resource;A compiler stage,C,Easy
+333,23,What does mutual exclusion mean?,All processes enter together;Only one process can be in the critical section at a time;No process can run;Processes share the CPU equally,B,Easy
+334,23,What is a mutex?,A lock that protects a critical section;A type of memory;A scheduling algorithm;A file type,A,Easy
+335,23,What is a semaphore?,A type of thread;A disk driver;A page table;An integer variable used with wait and signal operations,D,Easy
+336,23,Which values can a binary semaphore take?,Any integer;Only negative numbers;0 and 1;Only 2,C,Medium
+337,23,What is a counting semaphore used for?,Counting lines of code;Controlling access to several identical resources;Counting files;Counting processes only,B,Medium
+338,23,Which classic problem uses a bounded buffer?,Producer consumer;Dining philosophers;Readers writers;Banker,A,Medium
+339,23,What can happen if semaphores are used in the wrong order?,Faster execution;More memory;A smaller program;Deadlock,D,Medium
+340,23,Which solution works for two processes using flag and turn variables?,Banker's algorithm;Round Robin;Peterson's solution;LRU,C,Medium
+341,23,Which are the three requirements of a critical section solution?,Speed and size and cost;Mutual exclusion and progress and bounded waiting;Read and write and execute;Fork and join and exit,B,Medium
+342,23,What is a monitor?,A high-level synchronization construct;A screen;A disk;A type of CPU,A,Hard
+343,23,What is busy waiting?,A process sleeps;A process ends;A process swaps out;A process loops while it waits and wastes CPU time,D,Hard
+344,23,Which problem has five philosophers and five forks?,Producer consumer;Banker;Dining philosophers;Sleeping barber,C,Hard
+345,23,What does the wait operation do on a semaphore?,Increments it;Decrements it and blocks if it is not positive;Deletes it;Resets it to 1,B,Hard
+346,24,What is a deadlock?,Processes wait forever for resources held by each other;A process that ends;A slow disk;A full queue,A,Easy
+347,24,How many Coffman conditions are needed for a deadlock?,Two;Three;Five;Four,D,Easy
+348,24,Which is NOT a necessary condition for deadlock?,Mutual exclusion;Hold and wait;Resource preemption;Circular wait,C,Easy
+349,24,What does a cycle in a resource allocation graph with single instances mean?,A safe state;A deadlock;No requests;A finished process,B,Easy
+350,24,What is deadlock prevention?,Making sure at least one necessary condition cannot happen;Ignoring deadlocks;Killing all processes;Adding more disks,A,Easy
+351,24,Which algorithm is used for deadlock avoidance?,Round Robin;FIFO;Peterson;Banker's algorithm,D,Medium
+352,24,What is a safe state?,A state with no processes;A state with full memory;A state where a safe sequence of processes exists;A state with a deadlock,C,Medium
+353,24,How can the system recover from a deadlock?,Add more RAM only;Terminate a process or preempt resources;Restart the keyboard;Format the disk,B,Medium
+354,24,What does the ostrich algorithm do?,Ignores the deadlock problem;Prevents all deadlocks;Detects deadlocks;Kills all processes,A,Medium
+355,24,How can circular wait be broken?,By giving every process the CPU;By adding threads;By using paging;By ordering the resources and requesting them in order,D,Medium
+356,24,What does a cycle mean when each resource has one instance?,No deadlock;A safe sequence;Deadlock;Starvation,C,Medium
+357,24,Does an unsafe state always mean a deadlock?,Yes always;No but it may lead to one;Never;Only with threads,B,Hard
+358,24,How is starvation different from deadlock?,In starvation one process waits indefinitely while others keep running;They are identical;Starvation stops all processes;Deadlock affects only one process,A,Hard
+359,24,How is hold and wait prevented?,A process holds resources longer;A process requests resources one by one;A process never ends;A process requests all resources at the start,D,Hard
+360,24,Which recovery method takes resources away from a process?,Process creation;Context switching;Resource preemption;Paging,C,Hard
+361,25,What does main memory hold?,Only the operating system files;Programs and data that are currently running;All files on disk;Only user documents,B,Easy
+362,25,What is the difference between logical and physical addresses?,Logical is generated by the CPU and physical is the real memory address;They are the same;Logical is on disk and physical is on screen;Logical is a file name,A,Easy
+363,25,Which hardware translates logical addresses to physical addresses?,The GPU;The hard disk;The keyboard controller;The MMU,D,Easy
+364,25,What is paging?,Dividing memory into variable parts;Copying memory to a disk;Dividing memory into fixed-size pages and frames;Deleting memory,C,Easy
+365,25,What is segmentation?,Dividing memory into equal frames;Dividing a program into variable-size logical units;Copying a process;Sorting memory,B,Easy
+366,25,What is internal fragmentation?,Unused space inside an allocated block;Free space scattered between blocks;A corrupted disk;A lost page,A,Medium
+367,25,What is external fragmentation?,Unused space inside a page;A full cache;A missing frame;Free memory split into small pieces that are not contiguous,D,Medium
+368,25,What does compaction do?,Deletes processes;Compresses files;Moves processes to join free memory into one block;Adds more RAM,C,Medium
+369,25,Which are memory allocation strategies?,FIFO and LRU and OPT;First fit and best fit and worst fit;FCFS and SJF and RR;Read and write and execute,B,Medium
+370,25,What does a page table store?,The frame number for each page;The list of files;The CPU speed;The user names,A,Medium
+371,25,What does best fit choose?,The largest hole;The first hole;A random hole;The smallest hole that is big enough,D,Medium
+372,25,What is the TLB?,A type of disk;A scheduling queue;A cache of recent page table entries;A file table,C,Hard
+373,25,With a page size of 1024 bytes which page contains logical address 3000?,Page 3;Page 2;Page 1;Page 0,B,Hard
+374,25,A page size is 4 KB. How many offset bits are needed?,12;10;16;8,A,Hard
+375,25,What is swapping?,Changing the CPU;Renaming a file;Copying a page table;Moving a process between main memory and disk,D,Hard
+376,26,What does virtual memory allow?,Faster CPUs;More disk files;Running programs larger than the physical memory;Unlimited threads,C,Easy
+377,26,What is demand paging?,Loading all pages at start;Loading a page only when it is needed;Deleting unused pages;Copying pages to the CPU,B,Easy
+378,26,What is a page fault?,A reference to a page that is not in memory;A hardware crash;A deleted file;A full disk,A,Easy
+379,26,What does the OS do on a page fault?,Stops the computer;Deletes the process;Ignores the request;Loads the needed page from disk into a frame,D,Easy
+380,26,What does a page replacement algorithm decide?,Which file to open;Which process to start;Which page to remove when no frame is free;Which disk to use,C,Easy
+381,26,How does FIFO page replacement choose a victim?,The least recently used page;The page that has been in memory the longest;The largest page;A random page,B,Medium
+382,26,How does LRU choose a victim?,The page not used for the longest time;The newest page;The first page;A random page,A,Medium
+383,26,How does the optimal algorithm choose a victim?,The oldest page;The newest page;The smallest page;The page that will not be used for the longest time in the future,D,Medium
+384,26,What is Belady's anomaly?,Fewer frames cause fewer faults;LRU always fails;More frames can cause more page faults under FIFO;A page never faults,C,Medium
+385,26,What is thrashing?,The CPU overheats;The system spends more time paging than executing;The disk is full;A process ends,B,Medium
+386,26,What is the working set?,The set of pages a process is actively using;All pages on disk;The list of processes;The set of free frames,A,Medium
+387,26,What does the dirty bit show?,The page is corrupted;The page is free;The page is shared;The page was modified after loading,D,Hard
+388,26,What does the valid bit show?,Whether the page is dirty;Whether the page is large;Whether the page is in memory;Whether the page is shared,C,Hard
+389,26,A reference string 1 2 3 1 runs with 3 frames and FIFO. How many page faults happen?,4;3;2;1,B,Hard
+390,26,Where does the swap space live?,On the disk;In the CPU cache;In the BIOS;On the keyboard,A,Hard
+391,27,What is a file?,A running program;A CPU register;A network cable;A named collection of related information stored on disk,D,Easy
+392,27,What does a directory store?,CPU instructions;Page tables;Information about files;Passwords only,C,Easy
+393,27,What is sequential access?,Jumping to any record;Reading records one after another in order;Reading only the last record;Reading in reverse only,B,Easy
+394,27,What is direct access?,Reading any block without reading the earlier ones;Reading in order only;Reading only the first block;Writing only,A,Easy
+395,27,What is the advantage of contiguous allocation?,No fragmentation;Unlimited growth;No metadata;Fast access and simple,D,Easy
+396,27,How does linked allocation store a file?,All blocks are together;One block holds all addresses;Each block points to the next block;Blocks are encrypted,C,Medium
+397,27,What does indexed allocation use?,A pointer in every block;An index block listing the file blocks;A single contiguous area;A hash of the name,B,Medium
+398,27,What does an inode store in Unix?,File metadata and block pointers;Only the file name;The file content only;The user password,A,Medium
+399,27,What do the permissions r and w and x stand for?,Run and wait and exit;Rename and write and exit;Root and web and xml;Read and write and execute,D,Medium
+400,27,What does an absolute path start from?,The current directory;The home folder only;The root directory;The parent directory,C,Medium
+401,27,Which method manages free space using one bit per block?,Page table;Bitmap;Semaphore;Segment,B,Medium
+402,27,What is mounting?,Making a file system available at a directory;Deleting a disk;Copying a file;Formatting memory,A,Hard
+403,27,What does a soft link store?,A copy of the file;The disk address only;The file permissions only;The path to another file,D,Hard
+404,27,What does a journaling file system help with?,Faster CPU;More memory;Recovery after a crash;Better colours,C,Hard
+405,27,What is a disadvantage of linked allocation?,External fragmentation always;Slow random access;Fixed file size;No pointers,B,Hard
+406,28,Which data type stores whole numbers?,int;float;char;bool,A,Easy
+407,28,Which type gives more precision for decimals?,int;char;bool;double,D,Easy
+408,28,Which type stores a single character?,string;int;char;float,C,Easy
+409,28,Which type stores true or false?,int;bool;char;double,B,Easy
+410,28,What is a variable?,A named memory location that holds a value;A type of loop;A header file;A comment,A,Easy
+411,28,Which is a valid variable name in C++?,2marks;my-var;int;total_marks,D,Medium
+412,28,What is the difference between declaration and initialization?,They are the same;Declaration deletes a variable;Declaration creates the variable and initialization gives it a first value;Initialization creates a type,C,Medium
+413,28,How many bytes does an int usually take?,1;4;2;16,B,Medium
+414,28,What is the value of 5 / 2 when both are int?,2;2.5;3;0,A,Medium
+415,28,What does the const keyword do?,Makes the variable global;Deletes the variable;Makes it a loop;Makes the value unchangeable,D,Medium
+416,28,What is type casting?,Declaring a variable;Deleting a type;Converting a value from one type to another;Naming a type,C,Medium
+417,28,Which statement reads input from the keyboard?,cout;cin;print;echo,B,Hard
+418,28,What is the ASCII value of the character A?,65;97;1;48,A,Hard
+419,28,What can happen when an int goes beyond its maximum value?,A compile error always;Nothing;The value becomes a string;Overflow,D,Hard
+420,28,Which is the best type for storing 3.14159 accurately?,int;char;double;bool,C,Hard
+421,29,Which group lists arithmetic operators?,Double ampersand and double bar and exclamation;Plus and minus and star and slash and percent;Double equals and not equals and less than;Equals and plus equals and minus equals,B,Easy
+422,29,What is 7 % 3?,1;2;0;3,A,Easy
+423,29,What is 7 / 2 with int values?,3.5;4;2;3,D,Easy
+424,29,What is the difference between = and ==?,= compares and == assigns;They are the same;= assigns and == compares;= is a loop,C,Easy
+425,29,Which operator is logical AND?,Double bar;&&;!;Single ampersand,B,Easy
+426,29,Which operator is logical OR?,Double bar;&&;!;Single bar,A,Medium
+427,29,Which operator is logical NOT?,&&;Double bar;Tilde;!,D,Medium
+428,29,What does x++ do?,Doubles x;Decreases x;Increases x by 1 after using its value;Resets x,C,Medium
+429,29,After int x = 5 and int y = x++ what is y?,6;5;4;0,B,Medium
+430,29,After int x = 5 and int y = ++x what is y?,6;5;4;0,A,Medium
+431,29,What is the value of 2 + 3 * 4?,20;24;9;14,D,Medium
+432,29,What does x += 3 mean?,x = 3;x = x * 3;x = x + 3;x = x - 3,C,Hard
+433,29,What is the ternary operator?,&&;?:;::;->,B,Hard
+434,29,What does sizeof return?,The size in bytes;The value;The address;The type name,A,Hard
+435,29,What is the result of 10 > 5 && 3 > 4?,true;1 and 0;An error;false,D,Hard
+436,30,When does an if block run?,When its condition is false;Always;When its condition is true;Never,C,Easy
+437,30,When does the else block run?,When the if condition is true;When the if condition is false;Always;Never,B,Easy
+438,30,What is else if used for?,Checking another condition when the first one fails;Ending the program;Repeating a block;Declaring a variable,A,Easy
+439,30,What does switch use to choose a block?,loops;arrays;pointers;case labels,D,Easy
+440,30,What does break do inside a switch case?,Restarts the switch;Deletes the case;Stops execution from falling into the next case;Ends the program,C,Easy
+441,30,What does default do in a switch?,Runs first always;Runs when no case matches;Runs last always;Is required in every switch,B,Medium
+442,30,In C++ which value counts as false?,0;1;-1;Any nonzero number,A,Medium
+443,30,What is the mistake in if (x = 5)?,It compares correctly;It is a loop;It has no mistake;It assigns instead of comparing,D,Medium
+444,30,What is a nested if?,Two else blocks;An if without a condition;An if inside another if;A switch with no case,C,Medium
+445,30,Which types can a switch use?,float and double;int and char;string only;arrays,B,Medium
+446,30,What happens if break is missing in a case?,Execution falls through to the next case;The program crashes;The switch is skipped;Nothing changes,A,Medium
+447,30,Which condition checks that x is between 1 and 10 inclusive?,x >= 1 or x <= 10;x > 1 && x < 10;x = 1 && x = 10;x >= 1 && x <= 10,D,Hard
+448,30,To which if does a dangling else belong?,The first if;The last if;The nearest unmatched if;None,C,Hard
+449,30,Why check higher grade conditions first in an else if chain?,Else if only works from the top grade;The first true condition wins and the rest are skipped;It makes the code shorter;It is required by the compiler,B,Hard
+450,30,What does if (x) mean when x is 0?,The condition is false;The condition is true;A compile error;x becomes 1,A,Hard
+451,31,When is a for loop usually used?,Only for input;Only for functions;Never;When the number of iterations is known,D,Easy
+452,31,When does a while loop check its condition?,After each iteration;Only once;Before each iteration;Never,C,Easy
+453,31,How many times does a do-while loop run at least?,Twice;Once;Zero;Never,B,Easy
+454,31,What does break do in a loop?,Exits the loop;Skips one iteration;Restarts the loop;Does nothing,A,Easy
+455,31,What does continue do in a loop?,Exits the loop;Ends the program;Repeats the loop forever;Skips the rest of the current iteration,D,Easy
+456,31,Which loop is infinite?,while (false);for with a false condition;while (true);do-while with false,C,Medium
+457,31,A loop starts i at 0 and runs while i is less than 5 with i++. How many times does it run?,4;5;6;0,B,Medium
+458,31,An outer loop runs 3 times and an inner loop runs 4 times each. How many inner iterations happen in total?,12;7;3;4,A,Medium
+459,31,What is an off-by-one error?,A missing semicolon;A wrong type;A deleted variable;A loop running one time too many or too few,D,Medium
+460,31,Where does a variable declared inside a for loop exist?,In the whole program;In other files;Only inside that loop;Nowhere,C,Medium
+461,31,What is the sum of 1 + 2 + 3 + 4 + 5 computed by a loop?,10;15;12;5,B,Medium
+462,31,A do-while loop has a false condition. How many times does its body run?,Once;Never;Twice;Forever,A,Hard
+463,31,What does a range-based for loop do?,Runs forever;Skips every element;Deletes the array;Visits every element of a collection,D,Hard
+464,31,Which loops are typically used to print a star pattern?,A single if;A switch;Nested loops;Recursion only,C,Hard
+465,31,How do you count down from 10 to 1?,Start at 1 and use i++;Start at 10 and decrease with i--;Use a switch;Use sizeof,B,Hard
+466,32,What is a function?,A reusable block of code that does one task;A type of variable;A comment;A header file,A,Easy
+467,32,What does a void return type mean?,The function returns zero;The function is empty;The function is static;The function returns no value,D,Easy
+468,32,What is the difference between a parameter and an argument?,They are the same;A parameter is a loop;A parameter is in the definition and an argument is the value passed;An argument is a type,C,Easy
+469,32,What happens in pass by value?,The original is passed;A copy of the argument is passed;The address is passed;Nothing is passed,B,Easy
+470,32,What happens in pass by reference?,The function works on the original variable;A copy is made;The value is deleted;The function cannot read it,A,Easy
+471,32,What is a function prototype?,A loop;A header guard;A variable;A declaration before use that tells the compiler the signature,D,Medium
+472,32,What is recursion?,A loop inside main;Two functions with the same name;A function calling itself;A function with no body,C,Medium
+473,32,Why does a recursive function need a base case?,To make it faster;To stop the recursion;To avoid parameters;To return void,B,Medium
+474,32,What is a default argument?,A value used when the caller gives none;A required value;A global variable;A return type,A,Medium
+475,32,Which C++ feature allows two functions with the same name but different parameters?,Recursion;Inlining;Type casting;Function overloading,D,Medium
+476,32,Where does a local variable exist?,In the whole program;In all files;Only inside its function;On the disk,C,Medium
+477,32,Where can a global variable be used?,Only in main;In any function after its declaration;Only in loops;Nowhere,B,Hard
+478,32,What does factorial(4) return when defined recursively?,24;10;16;12,A,Hard
+479,32,What happens when a recursive function has no base case?,A faster program;A compile error always;Nothing;Stack overflow,D,Hard
+480,32,What does return do?,Starts a loop;Declares a variable;Ends the function and sends back a value;Prints a value,C,Hard
+481,33,What does an array store?,Values of different types;Several values of the same type;Only strings;Only functions,B,Easy
+482,33,What is the index of the first array element?,0;1;-1;The array size,A,Easy
+483,33,How many elements does int m[3][4] have?,7;3;4;12,D,Easy
+484,33,Which C++ class is commonly used for text?,std::array only;std::int;std::string;std::text,C,Easy
+485,33,Which function gives the length of a std::string?,count();length();len();total(),B,Easy
+486,33,Which operator joins two std::string values?,+;&;*;/,A,Medium
+487,33,What ends a C-style char array string?,A space;A newline;A zero index;The null character,D,Medium
+488,33,How can two std::string values be compared?,With =;With &&;With ==;With ++,C,Medium
+489,33,What does passing an array to a function really pass?,A full copy;The address of the first element;Only its size;Nothing,B,Medium
+490,33,What happens when you read past the end of an array?,Undefined behavior;The array grows;A guaranteed error message;Zero is returned,A,Medium
+491,33,What does s[0] give for a string s?,The last character;The length;The whole string;The first character,D,Medium
+492,33,What does strlen count?,All bytes including null;Words;Characters before the null terminator;Lines,C,Hard
+493,33,Which function reads a whole line with spaces?,cin alone;getline;scanf only;read,B,Hard
+494,33,What is the size of a normal array in standard C++?,It must be fixed at compile time;It grows automatically;It is chosen at runtime always;It is always 10,A,Hard
+495,33,How do you loop over all elements of an array of size n?,With i from 1 to n;With i from 0 to n;With i from -1 to n;With i from 0 to n-1,D,Hard
+496,34,What does a pointer store?,A character;A function body;A memory address;A loop count,C,Easy
+497,34,What does the & operator give?,The value of a variable;The address of a variable;The size of a variable;The type of a variable,B,Easy
+498,34,What does the * operator do on a pointer?,Reaches the value at the address;Gets the address;Deletes the pointer;Adds one,A,Easy
+499,34,Which line declares a pointer to an int?,int p*;pointer int p;int &&p;int *p,D,Easy
+500,34,What is nullptr?,A pointer to zero bytes;A pointer to main;A pointer that points to nothing;A deleted pointer,C,Easy
+501,34,What does p++ do for an int pointer?,Adds 1 byte;Moves to the next int;Deletes the pointer;Doubles the pointer,B,Medium
+502,34,What does an array name represent?,The address of its first element;Its size;Its last element;A copy of the array,A,Medium
+503,34,What does new do?,Deletes memory;Declares a type;Prints a value;Allocates memory on the heap,D,Medium
+504,34,What does delete do?,Allocates memory;Declares a pointer;Frees memory allocated with new;Reads a value,C,Medium
+505,34,What is a memory leak?,A full disk;Allocated memory that is never freed;A deleted file;A slow CPU,B,Medium
+506,34,What is a dangling pointer?,A pointer to memory that was already freed;A null pointer;A pointer to main;A pointer to a constant,A,Medium
+507,34,How does a reference differ from a pointer?,A reference can be null;A reference stores two addresses;They are identical;A reference must be initialized and cannot be null,D,Hard
+508,34,What is a pointer to a pointer written as?,int &pp;int pp**;int **pp;int *&&pp,C,Hard
+509,34,Typically how large is a pointer on a 64-bit system?,4 bytes;8 bytes;1 byte;16 bytes,B,Hard
+510,34,Which statement frees an array created with new[]?,delete[] arr;delete arr;free arr;remove arr,A,Hard

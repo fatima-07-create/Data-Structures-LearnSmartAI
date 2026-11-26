@@ -1,0 +1,35 @@
+topic_id,resource_title,resource_type,resource_url
+1,Programiz DSA,Article,https://www.programiz.com/dsa
+2,Programiz Linked List,Article,https://www.programiz.com/dsa/linked-list
+3,Programiz Stack,Article,https://www.programiz.com/dsa/stack
+4,Programiz Queue,Article,https://www.programiz.com/dsa/queue
+5,Programiz Hash Table,Article,https://www.programiz.com/dsa/hash-table
+6,Programiz Binary Search Tree,Article,https://www.programiz.com/dsa/binary-search-tree
+7,Programiz AVL Tree,Article,https://www.programiz.com/dsa/avl-tree
+8,Programiz Heap,Article,https://www.programiz.com/dsa/heap-data-structure
+9,Programiz Graph,Article,https://www.programiz.com/dsa/graph
+10,W3Schools C++ Classes,Article,https://www.w3schools.com/cpp/cpp_classes.asp
+11,W3Schools C++ Encapsulation,Article,https://www.w3schools.com/cpp/cpp_encapsulation.asp
+12,GeeksforGeeks Abstraction in C++,Article,https://www.geeksforgeeks.org/abstraction-in-cpp/
+13,W3Schools C++ Inheritance,Article,https://www.w3schools.com/cpp/cpp_inheritance.asp
+14,W3Schools C++ Polymorphism,Article,https://www.w3schools.com/cpp/cpp_polymorphism.asp
+15,W3Schools SQL Keys,Article,https://www.w3schools.com/sql/sql_primarykey.asp
+16,GeeksforGeeks ER Model,Article,https://www.geeksforgeeks.org/introduction-of-er-model/
+17,W3Schools SQL Tutorial,Article,https://www.w3schools.com/sql/
+18,W3Schools SQL Joins,Article,https://www.w3schools.com/sql/sql_join.asp
+19,GeeksforGeeks Normalization,Article,https://www.geeksforgeeks.org/normal-forms-in-dbms/
+20,GeeksforGeeks ACID Properties,Article,https://www.geeksforgeeks.org/acid-properties-in-dbms/
+21,GeeksforGeeks Operating Systems,Article,https://www.geeksforgeeks.org/operating-systems/
+22,GeeksforGeeks Operating Systems,Article,https://www.geeksforgeeks.org/operating-systems/
+23,GeeksforGeeks Operating Systems,Article,https://www.geeksforgeeks.org/operating-systems/
+24,GeeksforGeeks Operating Systems,Article,https://www.geeksforgeeks.org/operating-systems/
+25,GeeksforGeeks Operating Systems,Article,https://www.geeksforgeeks.org/operating-systems/
+26,GeeksforGeeks Operating Systems,Article,https://www.geeksforgeeks.org/operating-systems/
+27,GeeksforGeeks Operating Systems,Article,https://www.geeksforgeeks.org/operating-systems/
+28,W3Schools C++ Variables,Article,https://www.w3schools.com/cpp/cpp_variables.asp
+29,W3Schools C++ Operators,Article,https://www.w3schools.com/cpp/cpp_operators.asp
+30,W3Schools C++ Conditions,Article,https://www.w3schools.com/cpp/cpp_conditions.asp
+31,W3Schools C++ For Loop,Article,https://www.w3schools.com/cpp/cpp_for_loop.asp
+32,W3Schools C++ Functions,Article,https://www.w3schools.com/cpp/cpp_functions.asp
+33,W3Schools C++ Arrays,Article,https://www.w3schools.com/cpp/cpp_arrays.asp
+34,W3Schools C++ Pointers,Article,https://www.w3schools.com/cpp/cpp_pointers.asp

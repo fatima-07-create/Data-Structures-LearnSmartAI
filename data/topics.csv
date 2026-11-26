@@ -1,0 +1,35 @@
+topic_id,subject,topic_name,difficulty,short_description
+1,Data Structures,Arrays,Easy,Items stored side by side in contiguous memory
+2,Data Structures,Linked List,Easy,Nodes connected with pointers
+3,Data Structures,Stack,Easy,Last in first out
+4,Data Structures,Queue,Easy,First in first out
+5,Data Structures,Hash Table,Medium,Find items quickly using a key
+6,Data Structures,Binary Search Tree,Medium,Sorted tree with left and right children
+7,Data Structures,AVL Tree,Hard,Self-balancing binary search tree
+8,Data Structures,Heap,Medium,Tree where the parent beats its children
+9,Data Structures,Graph,Hard,Nodes connected by edges
+10,OOP,Classes and Objects,Easy,Blueprints and their instances
+11,OOP,Encapsulation,Easy,Data hiding with controlled access
+12,OOP,Abstraction,Medium,Showing essentials and hiding details
+13,OOP,Inheritance,Medium,Reusing members of a base class
+14,OOP,Polymorphism,Hard,One interface with many forms
+15,Database,Relational Model and Keys,Easy,Tables and keys that identify rows
+16,Database,ER Modeling,Medium,Entities and relationships on paper
+17,Database,SQL Basics,Easy,The core SQL commands
+18,Database,Joins and Queries,Medium,Combining data from many tables
+19,Database,Normalization,Hard,Removing redundancy step by step
+20,Database,Transactions and ACID,Hard,Safe groups of database operations
+21,Operating Systems,Processes and Threads,Medium,Programs in execution and their threads
+22,Operating Systems,CPU Scheduling,Medium,Deciding who gets the CPU
+23,Operating Systems,Synchronization,Hard,Safe sharing between processes
+24,Operating Systems,Deadlocks,Hard,Processes waiting for each other forever
+25,Operating Systems,Memory Management,Medium,Placing programs in main memory
+26,Operating Systems,Virtual Memory,Hard,Using disk to extend memory
+27,Operating Systems,File Systems,Easy,How files are stored and found
+28,Programming Fundamentals,Variables and Data Types,Easy,Storing values in C++
+29,Programming Fundamentals,Operators and Expressions,Easy,Calculations and comparisons
+30,Programming Fundamentals,Conditional Statements,Easy,Making decisions in code
+31,Programming Fundamentals,Loops,Easy,Repeating work
+32,Programming Fundamentals,Functions,Medium,Reusable blocks of code
+33,Programming Fundamentals,Arrays and Strings,Medium,Groups of values and text
+34,Programming Fundamentals,Pointers and References,Hard,Working with memory addresses

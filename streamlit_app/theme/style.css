@@ -1,0 +1,74 @@
+:root {
+  --navy: #172554;
+  --teal: #0F766E;
+  --page: #F8FAFC;
+  --card: #FFFFFF;
+  --text: #1E293B;
+  --muted: #64748B;
+  --border: #E2E8F0;
+}
+
+.stApp { background: var(--page); color: var(--text); }
+
+h1.ls-title { color: var(--navy); font-size: 2rem; margin-bottom: 0.2rem; }
+h2, h3 { color: var(--navy); }
+
+div[data-testid="stMetric"] {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+div.stButton > button {
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Simple cards, status pills and inspector boxes used by our own HTML. */
+.ls-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 8px 0 16px 0;
+}
+.ls-card .ls-muted, .ls-muted { color: var(--muted); font-size: 0.9rem; }
+
+.ls-badge {
+  display: inline-block;
+  color: #FFFFFF;
+  border-radius: 999px;
+  padding: 2px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.ls-mono { font-family: Consolas, "Courier New", monospace; }
+
+.ls-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 6px 0; }
+.ls-node {
+  font-family: Consolas, "Courier New", monospace;
+  background: var(--card);
+  border: 2px solid var(--navy);
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: var(--text);
+}
+.ls-node.hot { border-color: var(--teal); background: #CCFBF1; }
+.ls-node.empty { border-style: dashed; border-color: var(--border); color: var(--muted); }
+.ls-arrow { color: var(--navy); font-family: Consolas, "Courier New", monospace; font-weight: 700; }
+.ls-tag { color: var(--teal); font-family: Consolas, "Courier New", monospace; font-weight: 700; font-size: 0.85rem; }
+.ls-warn { color: #D97706; font-weight: 600; font-size: 0.85rem; }
+
+.ls-slot {
+  font-family: Consolas, "Courier New", monospace;
+  min-width: 92px;
+  text-align: center;
+  border: 2px solid var(--navy);
+  border-radius: 8px;
+  padding: 6px 4px;
+  background: var(--card);
+}
+.ls-slot.empty { border-style: dashed; border-color: var(--border); color: var(--muted); }
+.ls-slot-label { text-align: center; font-family: Consolas, "Courier New", monospace; font-size: 0.8rem; color: var(--teal); font-weight: 700; min-height: 1.2rem; }
